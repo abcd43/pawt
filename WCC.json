@@ -1,0 +1,127 @@
+{
+   "league": {
+      "leagueName": "Cricket World Cup 2023",
+      "scorecard": {
+         "date": "31-10-2023",
+         "time": "02:00 PM IST",
+         "match": "Ban vs Pak",
+         "Toss": "Ban Won the toss & decidedto bat",
+         "score": {
+            "Ban": {
+               "runs": "150/5",
+               "Overs": "(34.2)"
+            },
+            "Pak": {
+               "runs": "yet to bat",
+               "Overs": "bat"
+            }
+         },
+         "venue": "Eden Gardens,Kolkata",
+         "umpires": "Nitin Menin(IND), Richard Kettleborough(ENG)",
+         "teams": {
+            "Ban": {
+               "p1": "Shakib Al Hasan",
+               "p2": "Mehidy Hasan",
+               "p3": "Tanzid Hasan",
+               "p4": "Mahmudullah",
+               "p5": "Liton Das",
+               "p6": "Najmul Hossain",
+               "p7": "Mustafizur rahman",
+               "p8": "Mushfiqur rahim",
+               "p9": "Towhid Hridoy",
+               "p10": "Nasum Ahmed",
+               "p11": "Taskin Ahmed",
+               "p12": "Shoriful islam",
+               "p13": "Tanzim Hasan Shakib",
+               "p14": "Hasan Muhmud",
+               "p15": "Mehedi Hasan"
+            },
+            "ind": {
+               "p1": "Virat Kohli(vc)",
+               "p2": "Rohit Sharma(c)",
+               "p3": "Shubhman Gill",
+               "p4": "KL Rahul(wk)",
+               "p5": "Hardik Pandya",
+               "p6": "Jasprit Bumrah",
+               "p7": "Suryakumar Yadav",
+               "p8": "Shreyash Iyer",
+               "p9": "Mohammed Siraj",
+               "p10": "Ishan Kishan",
+               "p11": "Ravindra Jadeja",
+               "p12": "Kuldeep Yadav",
+               "p13": "Ravichandran Ashwinp",
+               "p14": "Shradul thakur",
+               "p15": "Mohammed Shami"
+            },
+            "Aus": {
+               "p1": "Steve Smith(c)",
+               "p2": "David Warner",
+               "p3": "Pat Cummins",
+               "p4": "Glenn Maxwell",
+               "p5": "Mitchell Marsh",
+               "p6": "Travis Head",
+               "p7": "Marnus Labuschagne",
+               "p8": "Mitchell Stark",
+               "p9": "Sean Abbott",
+               "p10": "Adam Zampa",
+               "p11": "Cameron green",
+               "p12": "Josh Inglis",
+               "p13": "Josh Hazlewood",
+               "p14": "Marcus Soinis",
+               "p15": "Jackson Bird"
+            },
+            "SA": {
+               "p1": "Temba Bavuma",
+               "p2": "Quinton de Kock",
+               "p3": "Aiden Markram",
+               "p4": "keshav Maharaj",
+               "p5": "Rassie van der Dussen",
+               "p6": "Marco Jansen",
+               "p7": "Henrich Klaasen",
+               "p8": "Gerald Ceotzee",
+               "p9": "David Miller",
+               "p10": "Tabraiz Shamsi",
+               "p11": "Kagiso Rabada",
+               "p12": "Lungi Ngidi",
+               "p13": "Andile Phehlukwayo",
+               "p14": "Reeza  Hendricks",
+               "p15": "Lizaad Williams"
+            },
+            "NZ": {
+               "p1": "Rachin Ravindra",
+               "p2": "Kane Williamson",
+               "p3": "Will Young",
+               "p4": "Devon Conway",
+               "p5": "Mitchell Santner",
+               "p6": "Glenn Phillips",
+               "p7": "Tim Southee",
+               "p8": "Trent Boult",
+               "p9": "Ish Sodhi",
+               "p10": "James Nessham",
+               "p11": "Tom Latham",
+               "p12": "Mark Chapman",
+               "p13": "Daryl Mitchell",
+               "p14": "Matt Henry",
+               "p15": "Lockie Fergussion"
+            },
+            "pak": {
+               "p1": "Babar Azam",
+               "p2": "Shaheen Afridi",
+               "p3": "Abdullah Shafiue",
+               "p4": "Mohmmad Rizwan",
+               "p5": "Iftikhar Ahmed",
+               "p6": "Shadab Khan",
+               "p7": "Saud Shakeel",
+               "p8": "Imam-ul-Haq",
+               "p9": "Fakhar Zaman",
+               "p10": "Zaman Khan",
+               "p11": "Haris Rauf",
+               "p12": "Salman Ali Agha",
+               "p13": "Hasan Ali",
+               "p14": "Mohammed Haris",
+               "p15": "Mohammad Nawaz"
+            }
+         }
+      }
+   }
+}

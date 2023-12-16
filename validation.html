@@ -1,0 +1,152 @@
+<!-- Validate the following Fields
+1) First name - Name should contain alphabets and the lenght should not be less than 6 Character
+2) Password - Password should not be less than 4 character lenght 
+3) Email - It should not contain any invalid and must follow the standard Pattern(name@domain.com)
+4) Mobile no. - Phone number should contain 10 digits only
+5) Last Name & Address - It Should not be empty-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+<body>
+    <center>
+        <table>
+            <caption>
+                <h1>Registration Form</h1>
+            </caption>
+            <tr>
+                <td>First Name:</td>
+                <td><input type="text" name="Fname" id="Fname" placeholder="Enter Your First Name"></td>
+                <span id="errorFname" style="color: red;"></span>
+            </tr>
+
+            <tr>
+                <td>Middle Name:</td>
+                <td><input type="text" name="Mname" id="Mname" placeholder="Enter Your Middle Name"></td>
+            </tr>
+
+            <tr>
+                <td>Last Name:</td>
+                <td><input type="text" id="LName" name="Lname" placeholder="Enter Your Last Name"></td>
+                <span id="errorLName" style="color: red;"></span>
+            </tr>
+
+            <tr>
+                <td>Password:</td>
+                <td><input type="password" name="Password" id="password" placeholder="Enter Your password"></td>
+                <span id="errorPassword" style="color: red;"></span>
+            </tr>
+
+            <tr>
+                <td>Confirm Password:</td>
+                <td><input type="password" name="C_Password" id="cpassword" placeholder="Enter Password to Confirm"></td>
+            </tr>
+
+            <tr>
+                <td>Email:</td>
+                <td><input type="email" name="Email" id="email" placeholder="Enter Your Email"></td>
+                <span id="errorEmail" style="color: red;"></span>
+            </tr>
+
+            <tr>
+                <td>Mobile no:</td>
+                <td><input type="text" name="Mobile_no" id="mobileno" placeholder="Enter Your Mobile No"></td>
+                <span id="errorMobile" style="color: red;"></span>
+            </tr>
+
+            <tr>
+                <td>Address:</td>
+                <td><textarea name="Address" id="address" rows="2" cols="25" placeholder="Enter Your Address"></textarea></td>
+                <span id="errorAddress" style="color: red;"></span>
+            </tr>
+
+            <!-- Other form fields... -->
+
+            <tr>
+                <td></td>
+                <td><button onclick="validateForm()">Register</button>
+                    <button>Cancel</button>
+                </td>
+            </tr>
+        </table>
+    </center>
+
+    <script>
+        function validateForm() {
+            var isValid = true;
+
+            // Validation for First Name
+            var fname = document.getElementById("Fname").value;
+            var errorFname = document.getElementById("errorFname");
+            if (!/^[a-zA-Z]+$/.test(fname) || fname.length < 6) {
+                errorFname.textContent = "First Name should contain alphabets and have a length of at least 6 characters.";
+                isValid = false;
+            } else {
+                errorFname.textContent = "";
+            }
+
+            // Validation for Last Name
+            var lname = document.getElementById("LName").value;
+            var errorLName = document.getElementById("errorLName");
+            if (lname.trim() === "") {
+                errorLName.textContent = "Last Name is required.";
+                isValid = false;
+            } else {
+                errorLName.textContent = "";
+            }
+
+            // Validation for Password
+            var password = document.getElementById("password").value;
+            var errorPassword = document.getElementById("errorPassword");
+            if (password.length < 4) {
+                errorPassword.textContent = "Password should have a minimum length of 4 characters.";
+                isValid = false;
+            } else {
+                errorPassword.textContent = "";
+            }
+
+            // Validation for Email
+            var email = document.getElementById("email").value;
+            var errorEmail = document.getElementById("errorEmail");
+            if (!/^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/.test(email)) {
+                errorEmail.textContent = "Invalid email format. Please use name@domain.com.";
+                isValid = false;
+            } else {
+                errorEmail.textContent = "";
+            }
+
+            // Validation for Mobile no.
+            var mobile = document.getElementById("mobileno").value;
+            var errorMobile = document.getElementById("errorMobile");
+            if (!/^\d{10}$/.test(mobile)) {
+                errorMobile.textContent = "Mobile number should contain exactly 10 digits.";
+                isValid = false;
+            } else {
+                errorMobile.textContent = "";
+            }
+
+            // Validation for Address
+            var address = document.getElementById("address").value;
+            var errorAddress = document.getElementById("errorAddress");
+            if (address.trim() === "") {
+                errorAddress.textContent = "Address is required.";
+                isValid = false;
+            } else {
+                errorAddress.textContent = "";
+            }
+
+            // If any validation failed, prevent form submission
+            if (!isValid) {
+                return false;
+            }
+            
+            // If all validations passed, you can submit the form here
+            document.getElementById("myForm").submit();
+        }
+    </script>
+</body>
+</html>

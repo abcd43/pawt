@@ -1,0 +1,127 @@
+<?xml version = "1.0" encoding = "utf-8"?>
+<league>
+	<leagueName>Cricket World Cup 2023</leagueName>
+	<scorecard>
+		
+		<date>31-10-2023</date>
+		<time>02:00 PM IST</time>
+		<match>Ban vs Pak</match>
+		<Toss>Ban Won the toss and decidedto bat</Toss>
+		<score>
+			<Ban>
+				<runs>150/5</runs>
+				<Overs>(34.2)</Overs>
+			</Ban>
+			<Pak>
+				<runs>yet to bat</runs>
+				<Overs>bat</Overs>
+			</Pak>
+		</score>
+		<venue>Eden Gardens,Kolkata</venue>
+		<umpires>Nitin Menin(IND), Richard Kettleborough(ENG)</umpires>
+		<teams>
+			<Ban>
+				<p1>Shakib Al Hasan</p1>
+				<p2>Mehidy Hasan</p2>
+				<p3>Tanzid Hasan</p3>
+				<p4>Mahmudullah</p4>
+				<p5>Liton Das</p5>
+				<p6>Najmul Hossain</p6>
+				<p7>Mustafizur rahman </p7>
+				<p8>Mushfiqur rahim</p8>
+				<p9>Towhid Hridoy</p9>
+				<p10>Nasum Ahmed</p10>
+				<p11>Taskin Ahmed</p11>
+				<p12>Shoriful islam</p12>
+				<p13>Tanzim Hasan Shakib</p13>
+				<p14>Hasan Muhmud</p14>
+				<p15>Mehedi Hasan</p15>
+			</Ban>
+			<ind>
+				<p1>Virat Kohli(vc)</p1>
+				<p2>Rohit Sharma(c)</p2>
+				<p3>Shubhman Gill</p3>
+				<p4>KL Rahul(wk)</p4>
+				<p5>Hardik Pandya</p5>
+				<p6>Jasprit Bumrah</p6>
+				<p7>Suryakumar Yadav</p7>
+				<p8>Shreyash Iyer</p8>
+				<p9>Mohammed Siraj</p9>
+				<p10>Ishan Kishan</p10>
+				<p11>Ravindra Jadeja</p11>
+				<p12>Kuldeep Yadav</p12>
+				<p13>Ravichandran Ashwinp</p13>
+				<p14>Shradul thakur</p14>
+				<p15>Mohammed Shami</p15>
+			</ind>
+			<Aus>
+				<p1>Steve Smith(c)</p1>
+				<p2>David Warner</p2>
+				<p3>Pat Cummins</p3>
+				<p4>Glenn Maxwell</p4>
+				<p5>Mitchell Marsh</p5>
+				<p6>Travis Head</p6>
+				<p7>Marnus Labuschagne</p7>
+				<p8>Mitchell Stark</p8>
+				<p9>Sean Abbott</p9>
+				<p10>Adam Zampa</p10>
+				<p11>Cameron green</p11>
+				<p12>Josh Inglis</p12>
+				<p13>Josh Hazlewood</p13>
+				<p14>Marcus Soinis</p14>
+				<p15>Jackson Bird</p15>
+			</Aus>
+			<SA>
+				<p1>Temba Bavuma</p1>
+				<p2>Quinton de Kock</p2>
+				<p3>Aiden Markram</p3>
+				<p4>keshav Maharaj</p4>
+				<p5>Rassie van der Dussen</p5>
+				<p6>Marco Jansen</p6>
+				<p7>Henrich Klaasen</p7>
+				<p8>Gerald Ceotzee</p8>
+				<p9>David Miller</p9>
+				<p10>Tabraiz Shamsi</p10>
+				<p11>Kagiso Rabada</p11>
+				<p12>Lungi Ngidi</p12>
+				<p13>Andile Phehlukwayo</p13>
+				<p14>Reeza  Hendricks</p14>
+				<p15>Lizaad Williams</p15>
+			</SA>
+			<NZ>
+				<p1>Rachin Ravindra</p1>
+				<p2>Kane Williamson</p2>
+				<p3>Will Young</p3>
+				<p4>Devon Conway</p4>
+				<p5>Mitchell Santner</p5>
+				<p6>Glenn Phillips</p6>
+				<p7>Tim Southee</p7>
+				<p8>Trent Boult</p8>
+				<p9>Ish Sodhi</p9>
+				<p10>James Nessham</p10>
+				<p11>Tom Latham</p11>
+				<p12>Mark Chapman</p12>
+				<p13>Daryl Mitchell</p13>
+				<p14>Matt Henry</p14>
+				<p15>Lockie Fergussion</p15>
+			</NZ>
+			<pak>
+				<p1>Babar Azam</p1>
+				<p2>Shaheen Afridi</p2>
+				<p3>Abdullah Shafiue</p3>
+				<p4>Mohmmad Rizwan</p4>
+				<p5>Iftikhar Ahmed</p5>
+				<p6>Shadab Khan</p6>
+				<p7>Saud Shakeel</p7>
+				<p8>Imam-ul-Haq</p8>
+				<p9>Fakhar Zaman</p9>
+				<p10>Zaman Khan</p10>
+				<p11>Haris Rauf</p11>
+				<p12>Salman Ali Agha</p12>
+				<p13>Hasan Ali</p13>
+				<p14>Mohammed Haris</p14>
+				<p15>Mohammad Nawaz</p15>
+			</pak>
+		</teams>
+	</scorecard>
+</league>
