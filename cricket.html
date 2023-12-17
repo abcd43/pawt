@@ -1,0 +1,60 @@
+<html>
+
+<head>
+    <title>cricket scorecard</title>
+</head>
+
+<body style=background-color:azure;>
+    <hr>
+    <center>
+        <font size="5px">
+            <h1> Cricket Scorecard </h1>
+        </font>
+    </center>
+    <center>
+        <table border="1">
+            <tr>
+                <th>Team Name</th>
+                <th>score</th>
+                <th>wicket</th>
+            </tr>
+            <tr>
+                <td>
+                    <p id="country1"></p>
+                </td>
+                <td>
+                    <p id="demo11"></p>
+                </td>
+                <td>
+                    <p id="demo12"></p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p id="country2"></p>
+                </td>
+                <td>
+                    <p id="demo21"></p>
+                </td>
+                <td>
+                    <p id="demo22"></p>
+                </td>
+            </tr>
+        </table>
+    </center>
+    <script>
+        const myJSON =
+            '{"India":[{"score":250},{"wicket":6}],"Pakistan":[{"score":200},{"wicket":9}]}';
+        const Obj = JSON.parse(myJSON);
+        var user = Obj["India"];
+        document.getElementById("country1").innerHTML = "India";
+        document.getElementById("demo11").innerHTML = user[0]["score"];
+        document.getElementById("demo12").innerHTML = user[1]["wicket"];
+        var user1 = Obj["Pakistan"];
+        document.getElementById("country2").innerHTML = "Pakistan";
+        document.getElementById("demo21").innerHTML = user1[0]["score"];
+        document.getElementById("demo22").innerHTML = user1[1]["wicket"];
+    </script>
+</body>
+
+</html>
